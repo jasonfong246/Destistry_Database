@@ -1,0 +1,201 @@
+CREATE DATABASE DENTISTRY;
+
+CREATE TABLE People (
+FirstName VARCHAR(20) NOT NULL,
+LastName VARCHAR(20) NOT NULL,
+ID INT NOT NULL,
+Address VARCHAR(20),
+PhoneNumber INT NOT NULL,
+EmergencyContactNumber INT NOT NULL,
+EmergencyContactRelationship VARCHAR(15) NOT NULL,
+PRIMARY KEY (ID)
+);
+
+CREATE TABLE DemographicInfo (
+ID INT NOT NULL,
+Employment TINYINT NOT NULL,
+DateOfBirth DATE NOT NULL,
+Income INT NOT NULL,
+Ethnicity VARCHAR(20) NOT NULL,
+Gender VARCHAR(10),
+FOREIGN KEY (ID) REFERENCES People(ID) ON UPDATE CASCADE
+);
+
+CREATE TABLE Patients (
+ID INT NOT NULL,
+FirstName VARCHAR(20) NOT NULL, 
+LastName VARCHAR(20) NOT NULL,
+FOREIGN KEY (ID) REFERENCES People(ID)
+
+);
+
+CREATE TABLE Employees (
+ID INT NOT NULL,
+FirstName VARCHAR(20) NOT NULL, 
+LastName VARCHAR(20) NOT NULL,
+FOREIGN KEY (ID) REFERENCES People(ID)
+);
+
+CREATE TABLE MedicalHistory (
+PatientID INT NOT NULL,
+SignedHIPPAForm tinyint NOT NULL,
+DateOfInformation DATE NOT NULL,
+DateOfLastXRay DATE,
+FOREIGN KEY (PatientID) REFERENCES Patients(ID)
+);
+
+CREATE TABLE Allergies (
+PatientID INT NOT NULL,
+Symptoms VARCHAR(50),
+AllergyType VARCHAR(20),
+FOREIGN KEY (PatientID) REFERENCES Patients(ID) ON UPDATE CASCADE
+);
+
+CREATE TABLE Medications (
+MedicationName VARCHAR(20) NOT NULL,
+PatientID INT NOT NULL,
+Dose INT,
+PrescribeDate Date,
+Distributor VARCHAR(20),
+FOREIGN KEY (PatientID) REFERENCES Patients(ID)
+);
+
+CREATE TABLE Insurance (
+PatientID INT NOT NULL,
+PolicyID INT NOT NULL,
+InsuranceCompany VARCHAR(30) NOT NULL,
+PolicyTypes VARCHAR(7) NOT NULL,
+StandardDentalProcedure INT NOT NULL,
+StandardPerUnitCharges INT NOT NULL,
+InsurancePhoneNumber INT NOT NULL,
+PRIMARY KEY (PolicyID),
+FOREIGN KEY (PatientID) REFERENCES Patients(ID)
+);
+
+CREATE TABLE CompletedProcedures (
+EmployeeID INT NOT NULL,
+ProcedureCompleted VARCHAR(50) NOT NULL,
+Qualifications VARCHAR(100) NOT NULL,
+DateOfCompletion DATE NOT NULL,
+ProcedureCompletionAmount INT NOT NULL,
+FOREIGN KEY (EmployeeID) REFERENCES Employees(ID)
+);
+
+CREATE TABLE PatientPayments (
+PolicyID INT NOT NULL,
+InvoiceID INT NOT NULL,
+PaymentHistory VARCHAR(200) NOT NULL,
+PaymentDate DATE NOT NULL,
+PatientPaymentAmount INT NOT NULL,
+PaymentType VARCHAR (5),
+FOREIGN KEY (InvoiceID) REFERENCES Invoice(InvoiceID),
+FOREIGN KEY (PolicyID) REFERENCES Insurance(PolicyID)
+);
+
+CREATE TABLE Money_Check (
+InvoiceID INT NOT NULL,
+CheckDate DATE NOT NULL,
+AccountNumber INT NOT NULL,
+RoutingNumber INT NOT NULL,
+FOREIGN KEY (InvoiceID) REFERENCES Invoice(InvoiceID)
+);
+
+
+CREATE TABLE Card (
+InvoiceID INT NOT NULL,
+IssuingCompany VARCHAR(30) NOT NULL,
+CardNumber INT NOT NULL,
+CardName VARCHAR(20) NOT NULL,
+CVVNumber VARCHAR(4) NOT NULL,
+ExpirationDate DATE NOT NULL,
+FOREIGN KEY (InvoiceID) REFERENCES Invoice(InvoiceID)
+);
+
+CREATE TABLE Invoice(
+InvoiceID INT NOT NULL,
+InvoicedAmount INT NOT NULL,
+InvoiceDate DATE NOT NULL, 
+ProcedurePerformed VARCHAR (25) NOT NULL, 
+DaysPastDue INT,
+PRIMARY KEY (InvoiceID)
+);
+
+
+CREATE TABLE Appointments(
+PatientID INT NOT NULL,
+AppointmentID INT NOT NULL,
+CancelledAppointment tinyint NOT NULL,
+AppointmentDate DATE NOT NULL,
+AppointmentStartTime TIME NOT NULL, 
+AppointmentEndTime TIME , 
+ProcedureDoctor VARCHAR(20) NOT NULL,
+PRIMARY KEY (AppointmentID),
+FOREIGN KEY (PatientID) REFERENCES Patients(ID)
+);
+
+CREATE TABLE Covers (
+PolicyID INT NOT NULL,
+AcceptedInsurance tinyint NOT NULL,
+AmountCovered INT NOT NULL,
+FOREIGN KEY (PolicyID) REFERENCES Insurance(PolicyID)
+);
+
+CREATE TABLE Schedule (
+PatientID INT NOT NULL,
+AppointmentID INT NOT NULL,
+Waitlist tinyint NOT NULL,
+FOREIGN KEY (AppointmentID) REFERENCES APPOINTMENT (AppointmentID),
+FOREIGN KEY (PatientID) REFERENCES PATIENTS(ID)
+);
+
+CREATE TABLE TreatmentProcedure (
+AppointmentID INT NOT NULL,
+EquipmentID INT NOT NULL,
+TreatmentType VARCHAR(50),
+ProcedureAmount INT NOT NULL,
+FOREIGN KEY (AppointmentID) REFERENCES Appointment(AppointmentID),
+FOREIGN KEY (EquipmentID) REFERENCES MedicalEquipment(AppointmentID)
+);
+
+CREATE TABLE Medical(
+EmployeeID INT NOT NULL,
+LicenseID INT NOT NULL,
+MedicalType VARCHAR(25),
+FOREIGN KEY (EmployeeID) REFERENCES EMPLOYEES(ID),
+FOREIGN KEY (LicenseID) REFERENCES MedicalLicense(LicenseID)
+);
+
+
+CREATE TABLE NonMedical (
+EmployeeID INT NOT NULL,
+Occupation VARCHAR(20)  NOT NULL,
+FOREIGN KEY (EmployeeID) REFERENCES EMPLOYEES (ID)
+);
+
+CREATE TABLE MedicalLicense (
+LicenseID INT NOT NULL,
+LicenseType VARCHAR(20) NOT NULL,
+ExpirationDate DATE NOT NULL,
+Primary KEY (LicenseID)
+);
+
+CREATE TABLE MedicalEquipment (
+EquipmentID INT NOT NULL,
+SupplierName VARCHAR(30) NOT NULL,
+DentalMirror tinyint NOT NULL,
+PowerTool tinyint NOT NULL,
+DentalProbe tinyint NOT NULL,
+ToolFile tinyint NOT NULL,
+Forcept tinyint NOT NULL,
+Scaler tinyint NOT NULL,
+XRayMachine tinyint NOT NULL,
+PRIMARY KEY (EquipmentID),
+FOREIGN KEY (SupplierName) REFERENCES Suppliers(SupplierName) ON UPDATE CASCADE
+);
+
+CREATE TABLE Suppliers (
+SupplierName VARCHAR(30) NOT NULL,
+SupplierAddress VARCHAR (20) NOT NULL,
+SupplierPhoneNumber INT NOT NULL,
+PRIMARY KEY (SupplierName)
+);

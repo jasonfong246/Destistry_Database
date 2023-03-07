@@ -1,0 +1,726 @@
+INSERT INTO People (ID, LastName, FirstName, PhoneNumber, Address, EmergencyContactNumber, EmergencyContactRelationship)
+VALUES (412083714, "Kline", "Jim", 1234567890, "123 6th Ave", 4192525507, "Father");
+
+INSERT INTO People (ID, LastName, FirstName, PhoneNumber, Address, EmergencyContactNumber, EmergencyContactRelationship)
+VALUES (154210831, "Sarja", "Kay", 1234567891, "124 6th Ave", 3479935523, "Mother");
+
+INSERT INTO People (ID, LastName, FirstName, PhoneNumber, Address, EmergencyContactNumber, EmergencyContactRelationship)
+VALUES (218054609, "Linn", "Sarah", 1234567894, "127 6th Ave", 8017091482, "Father");
+
+INSERT INTO People (ID, LastName, FirstName, PhoneNumber, Address, EmergencyContactNumber, EmergencyContactRelationship)
+VALUES (413027944, "Hens", "Bill", 1234562141, "128 6th Ave", 2019139226, "Son");
+
+INSERT INTO People (ID, LastName, FirstName, PhoneNumber, Address, EmergencyContactNumber, EmergencyContactRelationship)
+VALUES (140782199, "Mar", "Tim", 4213251345, "130 6th Ave", 5075884006, "Sister");
+
+INSERT INTO People (ID, LastName, FirstName, PhoneNumber, Address, EmergencyContactNumber, EmergencyContactRelationship)
+VALUES (137823041, "Burt", "Andrew", 1323245291, "111 1st Str", 8199429920, "Mother");
+
+INSERT INTO People (ID, LastName, FirstName, PhoneNumber, Address, EmergencyContactNumber, EmergencyContactRelationship)
+VALUES (984723520, "Jen", "Dennis", 3212414214, "414 4th Str", 99109090013, "Father");
+
+INSERT INTO People (ID, LastName, FirstName, PhoneNumber, Address, EmergencyContactNumber, EmergencyContactRelationship)
+VALUES (823420852, "Sany", "Chuck", 4214532414,	"819 8th Str",	3323425632, "Mother");
+
+INSERT INTO People (ID, LastName, FirstName, PhoneNumber, Address, EmergencyContactNumber, EmergencyContactRelationship)
+VALUES (928518002, "Ashen", "Leanne", 2454214567, "412 4th Str", 4013250121, "Father");
+
+INSERT INTO People (ID, LastName, FirstName, PhoneNumber, Address, EmergencyContactNumber, EmergencyContactRelationship)
+VALUES (564284110, "Wu", "Shelly", 7543575432, "195 1st Str", 0243144252, "Sister");
+
+INSERT INTO People (ID, LastName, FirstName, PhoneNumber, Address, EmergencyContactNumber, EmergencyContactRelationship)
+VALUES (949442630, "Kausalya", "Vitaly", 2104723545, "131 6th Ave", 8652206398, "Mother");
+
+INSERT INTO People (ID, LastName, FirstName, PhoneNumber, Address, EmergencyContactNumber, EmergencyContactRelationship)
+VALUES (356593432, "Aaren", "Modron",	9683756446, "132 6th Ave", 2568049266, "Father");
+
+INSERT INTO People (ID, LastName, FirstName, PhoneNumber, Address, EmergencyContactNumber, EmergencyContactRelationship)
+VALUES (918817420, "Johannes", "Matthias", 8007407835, "133 6th Ave", 6189873116, "Mother");
+
+INSERT INTO People (ID, LastName, FirstName, PhoneNumber, Address, EmergencyContactNumber, EmergencyContactRelationship)
+VALUES (339606243, "Flo", "Charmian", 9017731281, "134 6th Ave", 3369925958, "Father");
+
+INSERT INTO People (ID, LastName, FirstName, PhoneNumber, Address, EmergencyContactNumber, EmergencyContactRelationship)
+VALUES (381445165, "River", "Robynne", 7656823618,"135 6th Ave", 3037037617, "Sister");
+
+INSERT INTO People (ID, LastName, FirstName, PhoneNumber, Address, EmergencyContactNumber, EmergencyContactRelationship)
+VALUES (487235285, "Froud", "Jake", 7357646473, "481 4th Str", 5355301023, "Father");
+
+INSERT INTO People (ID, LastName, FirstName, PhoneNumber, Address, EmergencyContactNumber, EmergencyContactRelationship)
+VALUES (572284532, "Shen", "Toby", 7537468468, "754 7th Str", 3294299142, "Mother");
+
+INSERT INTO People (ID, LastName, FirstName, PhoneNumber, Address, EmergencyContactNumber, EmergencyContactRelationship)
+VALUES (559104853, "Driver", "Pete", 7298987865, "918 9th Str", 5213214256, "Father");
+
+INSERT INTO People (ID, LastName, FirstName, PhoneNumber, Address, EmergencyContactNumber, EmergencyContactRelationship)
+VALUES (404829432, "Solute", "Gerald", 5998342453, "302 3rd Str", 2482531422, "Son");
+
+INSERT INTO People (ID, LastName, FirstName, PhoneNumber, Address, EmergencyContactNumber, EmergencyContactRelationship)
+VALUES (285371192, "Wine", "Bob", 6213156362, "491 4th Str", 1023258423, "Sister");
+
+
+INSERT INTO Patients (ID, FirstName, LastName)
+VALUES (949442630, "Kausalya", "Vitaly");
+
+INSERT INTO Patients (ID, FirstName, LastName)
+VALUES (356593432, "Aaren", "Modron");
+
+INSERT INTO Patients (ID, FirstName, LastName)
+VALUES (918817420, "Johannes", "Matthias");
+
+INSERT INTO Patients (ID, FirstName, LastName)
+VALUES (339606243, "Flo", "Charmian");
+
+INSERT INTO Patients (ID, FirstName, LastName)
+VALUES (381445165, "River", "Robynne");
+
+INSERT INTO Patients (ID, FirstName, LastName)
+VALUES (487235285, "Froud", "Jake");
+
+INSERT INTO Patients (ID, FirstName, LastName)
+VALUES (572284532, "Shen", "Toby");
+
+INSERT INTO Patients (ID, FirstName, LastName)
+VALUES (559104853, "Driver", "Pete");
+
+INSERT INTO Patients (ID, FirstName, LastName)
+VALUES (404829432, "Solute", "Gerald");
+
+INSERT INTO Patients (ID, FirstName, LastName)
+VALUES (285371192, "Wine", "Bob");
+
+
+INSERT INTO Employees (ID, FirstName, LastName)
+VALUES (412083714, "Kline", "Jim");
+
+INSERT INTO Employees (ID, FirstName, LastName)
+VALUES (154210831, "Sarja", "Kay");
+
+INSERT INTO Employees (ID, FirstName, LastName)
+VALUES (218054609, "Linn", "Sarah");
+
+INSERT INTO Employees (ID, FirstName, LastName)
+VALUES (413027944, "Hens", "Bill");
+
+INSERT INTO Employees (ID, FirstName, LastName)
+VALUES (140782199, "Mar", "Tim");
+
+INSERT INTO Employees (ID, FirstName, LastName)
+VALUES (137823041, "Burt", "Andrew");
+
+INSERT INTO Employees (ID, FirstName, LastName)
+VALUES (984723520, "Jen", "Dennis");
+
+INSERT INTO Employees (ID, FirstName, LastName)
+VALUES (823420852, "Sany", "Chuck");
+
+INSERT INTO Employees (ID, FirstName, LastName)
+VALUES (928518002, "Ashen", "Leanne");
+
+INSERT INTO Employees (ID, FirstName, LastName)
+VALUES (564284110, "Wu", "Shelly");
+
+
+
+INSERT INTO Medications (Distributor, PrescribeDate, MedicationName, PatientID, Dose)
+VALUES (NULL, NULL , "None", 949442630, NULL);
+
+INSERT INTO Medications (Distributor, PrescribeDate, MedicationName, PatientID, Dose)
+VALUES ("Henry Schein", 2022-01-20, "Advil", 356593432, "30mg");
+
+INSERT INTO Medications (Distributor, PrescribeDate, MedicationName, PatientID, Dose)
+VALUES (NULL, NULL, "None", 918817420, NULL);
+
+INSERT INTO Medications (Distributor, PrescribeDate, MedicationName, PatientID, Dose)
+VALUES ("Bell Medical", 2022-01-22, "Insulin", 339606243, "90mg");
+
+INSERT INTO Medications (Distributor, PrescribeDate, MedicationName, PatientID, Dose)
+VALUES ("McKesson", 2022-02-20, "Insulin", 381445165, "80mg");
+
+INSERT INTO Medications (Distributor, PrescribeDate, MedicationName, PatientID, Dose)
+VALUES ("McKesson", 2022-03-24,  "sertraline", 487235285, "10mg");
+
+INSERT INTO Medications (Distributor, PrescribeDate, MedicationName, PatientID, Dose)
+VALUES (NULL, NULL, "None", 572284532, NULL);
+
+INSERT INTO Medications (Distributor, PrescribeDate, MedicationName, PatientID, Dose)
+VALUES ("Henry Schein", 2022-05-20, "paroxetine", 559104853, "5mg");
+
+INSERT INTO Medications (Distributor, PrescribeDate, MedicationName, PatientID, Dose)
+VALUES ("Bell Medical", 2022-06-12, "Advil", 404829432, "15mg");
+
+INSERT INTO Medications (Distributor, PrescribeDate, MedicationName, PatientID, Dose)
+VALUES ("Henry Schein", 2022-06-15,  "fluoxetine", 285371192, "20mg");
+
+INSERT INTO Allergies (Symptoms, AllergyType, PatientID)
+VALUES ("Running Nose", "Tree Nuts", 949442630);
+
+INSERT INTO Allergies (Symptoms, AllergyType, PatientID)
+VALUES (NULL, NULL, 356593432);
+
+INSERT INTO Allergies (Symptoms, AllergyType, PatientID)
+VALUES ("coughing", "Tylenol", 918817420);
+
+INSERT INTO Allergies (Symptoms, AllergyType, PatientID)
+VALUES ("Swollen Eyes", "Sunflower", 339606243);
+
+INSERT INTO Allergies (Symptoms, AllergyType, PatientID)
+VALUES (NULL, NULL, 381445165);
+
+INSERT INTO Allergies (Symptoms, AllergyType, PatientID)
+VALUES ("Trouble Breathing", "Corn", 487235285);
+
+INSERT INTO Allergies (Symptoms, AllergyType, PatientID)
+VALUES ("Hives", "Pine", 572284532);
+
+INSERT INTO Allergies (Symptoms, AllergyType, PatientID)
+VALUES (NULL, NULL, 559104853);
+
+INSERT INTO Allergies (Symptoms, AllergyType, PatientID)
+VALUES ("coughing", "Eggs", 404829432);
+
+INSERT INTO Allergies (Symptoms, AllergyType, PatientID)
+VALUES ("Hives", "Latex", 285371192);
+
+INSERT INTO MedicalHistory(PatientID, DateOfInformation, SignedHIPPAForm, DateOfLastXRay)
+VALUES (285371192, 2021-12-13, 1, 2022-03-01);
+
+INSERT INTO MedicalHistory(PatientID, DateOfInformation, SignedHIPPAForm, DateOfLastXRay)
+VALUES (949442630, 2022-09-15, 1, 2022-09-18);
+
+INSERT INTO MedicalHistory(PatientID, DateOfInformation, SignedHIPPAForm, DateOfLastXRay)
+VALUES (356593432, 2022-08-12, 1, 2022-08-17);
+
+INSERT INTO MedicalHistory(PatientID, DateOfInformation, SignedHIPPAForm, DateOfLastXRay)
+VALUES (918817420, 2022-07-24, 1, 2022-07-16);
+
+INSERT INTO MedicalHistory(PatientID, DateOfInformation, SignedHIPPAForm, DateOfLastXRay)
+VALUES (339606243, 2022-01-22, 0, 2022-01-02);
+
+INSERT INTO MedicalHistory(PatientID, DateOfInformation, SignedHIPPAForm, DateOfLastXRay)
+VALUES (381445165, 2022-04-01, 1, 2022-09-19);
+
+INSERT INTO MedicalHistory(PatientID, DateOfInformation, SignedHIPPAForm, DateOfLastXRay)
+VALUES (487235285, 2022-02-02, 1, 2022-05-17);
+
+INSERT INTO MedicalHistory(PatientID, DateOfInformation, SignedHIPPAForm, DateOfLastXRay)
+VALUES (572284532, 2021-09-18, 1, 2022-04-17);
+
+INSERT INTO MedicalHistory(PatientID, DateOfInformation, SignedHIPPAForm, DateOfLastXRay)
+VALUES (559104853, 2022-12-01, 1, 2022-5-25);
+
+INSERT INTO MedicalHistory(PatientID, DateOfInformation, SignedHIPPAForm, DateOfLastXRay)
+VALUES (404829432, 2021-06-06, 0, 2022-08-18);
+
+INSERT INTO Insurance(PolicyID, InsuranceCompany, PatientID, InsurancePhoneNumber, StandardPerUnitCharges, StandardDentalProcedure, PolicyTypes)
+VALUES (781461200, "BlueCross", 949442630, 1321425421, 200, 100, "Full");
+
+INSERT INTO Insurance(PolicyID, InsuranceCompany, PatientID, InsurancePhoneNumber, StandardPerUnitCharges, StandardDentalProcedure, PolicyTypes)
+VALUES (998504452, "Athena", 356593432, 1231111232, 600, 250, "Partial");
+
+INSERT INTO Insurance(PolicyID, InsuranceCompany, PatientID, InsurancePhoneNumber, StandardPerUnitCharges, StandardDentalProcedure, PolicyTypes)
+VALUES (367420363, "Athena", 918817420, 1231111232, 900, 470, "Partial");
+
+INSERT INTO Insurance(PolicyID, InsuranceCompany, PatientID, InsurancePhoneNumber, StandardPerUnitCharges, StandardDentalProcedure, PolicyTypes)
+VALUES (473278876, "Aflec", 339606243, 1323141234, 800, 900, "Full");
+
+INSERT INTO Insurance(PolicyID, InsuranceCompany, PatientID, InsurancePhoneNumber, StandardPerUnitCharges, StandardDentalProcedure, PolicyTypes)
+VALUES (307417131, "Shield", 381445165, 5363411456, 349, 700, "Partial");
+
+INSERT INTO Insurance(PolicyID, InsuranceCompany, PatientID, InsurancePhoneNumber, StandardPerUnitCharges, StandardDentalProcedure, PolicyTypes)
+VALUES (168968593, "BlueCross", 487235285, 1321425421, 245, 166, "Partial");
+
+INSERT INTO Insurance(PolicyID, InsuranceCompany, PatientID, InsurancePhoneNumber, StandardPerUnitCharges, StandardDentalProcedure, PolicyTypes)
+VALUES (686511633, "Humana", 572284532, 5087775300, 734, 370, "Full");
+
+INSERT INTO Insurance(PolicyID, InsuranceCompany, PatientID, InsurancePhoneNumber, StandardPerUnitCharges, StandardDentalProcedure, PolicyTypes)
+VALUES (217686794, "UnitedHealthcare", 559104853, 7015909225, 264, 134, "Partial");
+
+INSERT INTO Insurance(PolicyID, InsuranceCompany, PatientID, InsurancePhoneNumber, StandardPerUnitCharges, StandardDentalProcedure, PolicyTypes)
+VALUES (624211424, "UnitedHealthcare", 404829432, 7015909226, 173, 822, "Full");
+
+INSERT INTO Insurance(PolicyID, InsuranceCompany, PatientID, InsurancePhoneNumber, StandardPerUnitCharges, StandardDentalProcedure, PolicyTypes)
+VALUES (28037390, "Aflec", 285371192, 1323141234, 163,163, "Full");
+
+INSERT INTO DemographicInfo(ID, Employment, Income, Ethnicity, DateOfBirth, Gender)
+VALUES (949442630, 0, 0, "Polish", 1990-07-18, "M");
+
+INSERT INTO DemographicInfo(ID, Employment, Income, Ethnicity, DateOfBirth, Gender)
+VALUES (356593432, 1, 50000, "Caucasian", 1999-10-12, "F");
+
+INSERT INTO DemographicInfo(ID, Employment, Income, Ethnicity, DateOfBirth, Gender)
+VALUES (918817420, 0, 0, "Azeri", 2004-02-02, "M");
+
+INSERT INTO DemographicInfo(ID, Employment, Income, Ethnicity, DateOfBirth, Gender)
+VALUES (339606243, 1, 60000, "Irish", 1992-07-12, "M");
+
+INSERT INTO DemographicInfo(ID, Employment, Income, Ethnicity, DateOfBirth, Gender)
+VALUES (381445165, 1, 38000, "Haitian", 2002-02-02, "M");
+
+INSERT INTO DemographicInfo(ID, Employment, Income, Ethnicity, DateOfBirth, Gender)
+VALUES (487235285, 0, 100000, "American", 2000-01-12, NULL);
+
+INSERT INTO DemographicInfo(ID, Employment, Income, Ethnicity, DateOfBirth, Gender)
+VALUES (572284532, 1, 65000, "Caucasian", 1990-10-22, "F");
+
+INSERT INTO DemographicInfo(ID, Employment, Income, Ethnicity, DateOfBirth, Gender)
+VALUES (559104853, 1, 35000, "Polish",1997-10-24, "M");
+
+INSERT INTO DemographicInfo(ID, Employment, Income, Ethnicity, DateOfBirth, Gender)
+VALUES (404829432, 0, 0, "Caucasian", 2000-03-12, "M");
+
+INSERT INTO DemographicInfo(ID, Employment, Income, Ethnicity, DateOfBirth, Gender)
+VALUES (285371192, 1, 20000, "Azeri", 1992-01-02, "F");
+
+INSERT INTO DemographicInfo(ID, Employment, Income, Ethnicity, DateOfBirth, Gender)
+VALUES (412083714, 1, 120000, "Irish", 2002-02-01, "M");
+
+INSERT INTO DemographicInfo(ID, Employment, Income, Ethnicity, DateOfBirth, Gender)
+VALUES (154210831, 1, 85000, "Haitian", 2000-01-12, "F");
+
+INSERT INTO DemographicInfo(ID, Employment, Income, Ethnicity, DateOfBirth, Gender)
+VALUES (218054609, 1, 60000, "American", 1992-01-16, "F");
+
+INSERT INTO DemographicInfo(ID, Employment, Income, Ethnicity, DateOfBirth, Gender)
+VALUES (413027944, 1, 90000, "Caucasian", 2002-02-04, "M");
+
+INSERT INTO DemographicInfo(ID, Employment, Income, Ethnicity, DateOfBirth, Gender)
+VALUES (140782199, 0, 0, "Azeri", 1999-04-16, "M");
+
+INSERT INTO DemographicInfo(ID, Employment, Income, Ethnicity, DateOfBirth, Gender)
+VALUES (137823041, 1, 30000, "Irish", 2004-04-26, "M");
+
+INSERT INTO DemographicInfo(ID, Employment, Income, Ethnicity, DateOfBirth, Gender)
+VALUES (984723520, 1, 90000, "Haitian", 2000-05-20, "M");
+
+INSERT INTO DemographicInfo(ID, Employment, Income, Ethnicity, DateOfBirth, Gender)
+VALUES (823420852, 1, 100000, "American", 2000-11-24, "M");
+
+INSERT INTO DemographicInfo(ID, Employment, Income, Ethnicity, DateOfBirth, Gender)
+VALUES (928518002, 1, 40000, "Caucasian", 2000-03-03, "F");
+
+INSERT INTO DemographicInfo(ID, Employment, Income, Ethnicity, DateOfBirth, Gender)
+VALUES (564284110, 0, 0, "Nigerian", 2001-05-21, "F");
+
+INSERT INTO Appointments(AppointmentID, PatientID, CancelledAppointment, AppointmentDate, AppointmentStartTime, AppointmentEndTime, ProcedureDoctor)
+VALUES (241392, 949442630, 0, 2022-09-13, 900, 1000, "Jim Klin");
+
+INSERT INTO Appointments(AppointmentID, PatientID, CancelledAppointment, AppointmentDate, AppointmentStartTime, AppointmentEndTime, ProcedureDoctor)
+VALUES (153242, 356593432, 0, 2022-09-12, 400, 500, "Kay Sarja");
+
+INSERT INTO Appointments(AppointmentID, PatientID, CancelledAppointment, AppointmentDate, AppointmentStartTime, AppointmentEndTime, ProcedureDoctor)
+VALUES (529142, 918817420, 0, 2022-09-11, 1700, 1800, "Sarah Linn");
+
+INSERT INTO Appointments(AppointmentID, PatientID, CancelledAppointment, AppointmentDate, AppointmentStartTime, AppointmentEndTime, ProcedureDoctor)
+VALUES (123144, 339606243, 0, 2022-08-25, 1230, 1330, "Bill Hens");
+
+INSERT INTO Appointments(AppointmentID, PatientID, CancelledAppointment, AppointmentDate, AppointmentStartTime, AppointmentEndTime, ProcedureDoctor)
+VALUES (143588, 381445165, 0, 2022-11-15, 130, 230, "Tim Mar");
+
+INSERT INTO Appointments(AppointmentID, PatientID, CancelledAppointment, AppointmentDate, AppointmentStartTime, AppointmentEndTime, ProcedureDoctor)
+VALUES (147212, 487235285, 1, 2022-12-23, 1240, 1340, "Andrew Burt");
+
+INSERT INTO Appointments(AppointmentID, PatientID, CancelledAppointment, AppointmentDate, AppointmentStartTime, AppointmentEndTime, ProcedureDoctor)
+VALUES (876261, 572284532, 0, 2021-02-01, 1300, 1400, "Dennis Jen");
+
+INSERT INTO Appointments(AppointmentID, PatientID, CancelledAppointment, AppointmentDate, AppointmentStartTime, AppointmentEndTime, ProcedureDoctor)
+VALUES (256323, 559104853, 0, 2022-09-09, 800, 900, "Chuck Sany");
+
+INSERT INTO Appointments(AppointmentID, PatientID, CancelledAppointment, AppointmentDate, AppointmentStartTime, AppointmentEndTime, ProcedureDoctor)
+VALUES (627953, 404829432, 0, 2022-01-17, 1600, 1650, "Leanne Ashen");
+
+INSERT INTO Appointments(AppointmentID, PatientID, CancelledAppointment, AppointmentDate, AppointmentStartTime, AppointmentEndTime, ProcedureDoctor)
+VALUES (535262, 285371192, 0, 2023-05-23, 1230, 1430, "Shelly Wu");
+
+INSERT INTO Invoice(InvoiceID, InvoicedAmount, InvoiceDate, ProcedurePerformed, DaysPastDue)
+VALUES (42051, 50, 2022-05-12, "XRayCheckup", 1.00);
+
+INSERT INTO Invoice(InvoiceID, InvoicedAmount, InvoiceDate, ProcedurePerformed, DaysPastDue)
+VALUES (14529, 120, 2022-12-14, "RootCanal", 12.00);
+
+INSERT INTO Invoice(InvoiceID, InvoicedAmount, InvoiceDate, ProcedurePerformed, DaysPastDue)
+VALUES (92895, 250, 2022-08-29, "XRayCheckup", 0.00);
+
+INSERT INTO Invoice(InvoiceID, InvoicedAmount, InvoiceDate, ProcedurePerformed, DaysPastDue)
+VALUES (24913, 1200, 2022-12-13, "Checkup", 0.00);
+
+INSERT INTO Invoice(InvoiceID, InvoicedAmount, InvoiceDate, ProcedurePerformed, DaysPastDue)
+VALUES (32413, 650, 2022-12-24, "Cavity", 0.00);
+
+INSERT INTO Invoice(InvoiceID, InvoicedAmount, InvoiceDate, ProcedurePerformed, DaysPastDue)
+VALUES (42513, 350, 2021-01-02, "XRayCheckup", 0.00);
+
+INSERT INTO Invoice(InvoiceID, InvoicedAmount, InvoiceDate, ProcedurePerformed, DaysPastDue)
+VALUES (32516, 600, 2022-09-21, "RootCanal", 0.00);
+
+INSERT INTO Invoice(InvoiceID, InvoicedAmount, InvoiceDate, ProcedurePerformed, DaysPastDue)
+VALUES (76845, 1200, 2022-02-02, "XRayCheckup", 0.00);
+
+INSERT INTO Invoice(InvoiceID, InvoicedAmount, InvoiceDate, ProcedurePerformed, DaysPastDue)
+VALUES (86967, 320, 2023-04-30, "Checkup", 2.00);
+
+INSERT INTO Invoice(InvoiceID, InvoicedAmount, InvoiceDate, ProcedurePerformed, DaysPastDue)
+VALUES (12340, 120, 2022-9-21, "Cavity", 0.00);
+
+INSERT INTO PatientPayments(InvoiceID, PolicyID, PaymentType, PatientPaymentAmount, PaymentDate, PaymentHistory)
+VALUES (12340, 998504452, "Card", 120, 2022-09-21, "9/21/2022, 1/1/2021, 1/19/2021");
+
+INSERT INTO PatientPayments(InvoiceID, PolicyID, PaymentType, PatientPaymentAmount, PaymentDate, PaymentHistory)
+VALUES (42051, 367420363, "Card", 50, 2022-09-20, "9/20/2022");
+
+INSERT INTO PatientPayments(InvoiceID, PolicyID, PaymentType, PatientPaymentAmount, PaymentDate, PaymentHistory)
+VALUES (14529, 473278876, "Cash", 120, 2022-09-30, "9/30/2022");
+
+INSERT INTO PatientPayments(InvoiceID, PolicyID, PaymentType, PatientPaymentAmount, PaymentDate, PaymentHistory)
+VALUES (92895, 307417131, "Check", 250, 2022-08-29, "8/29/2022, 4/11/2021");
+
+INSERT INTO PatientPayments(InvoiceID, PolicyID, PaymentType, PatientPaymentAmount, PaymentDate, PaymentHistory)
+VALUES (24913, 168968593, "Check", 1200, 2022-09-08, "9/8/2022");
+
+INSERT INTO PatientPayments(InvoiceID, PolicyID, PaymentType, PatientPaymentAmount, PaymentDate, PaymentHistory)
+VALUES (32413, 686511633,  "Card", 650, 2022-12-24, "12/24/2022, 6/8/2021, 7/6/2021");
+
+INSERT INTO PatientPayments(InvoiceID, PolicyID, PaymentType, PatientPaymentAmount, PaymentDate, PaymentHistory)
+VALUES (42513, 217686794, "Card", 350, 2021-01-02, "1/2/2021, 9/9/2021");
+
+INSERT INTO PatientPayments(InvoiceID, PolicyID, PaymentType, PatientPaymentAmount, PaymentDate, PaymentHistory)
+VALUES (32516, 624211424, "Cash", 600, 2022-09-09, "9/9/2022");
+
+INSERT INTO PatientPayments(InvoiceID, PolicyID, PaymentType, PatientPaymentAmount, PaymentDate, PaymentHistory)
+VALUES (76845, 28037390, "Check", 1200, 2022-01-17, "1/17/2022, 9/19/2021");
+
+INSERT INTO PatientPayments(InvoiceID, PolicyID, PaymentType, PatientPaymentAmount, PaymentDate, PaymentHistory)
+VALUES (86967, 781461200, "Check", 320, 5/25/2023, "5/25/2023, 10/21/2021, 12/12/2021");
+
+INSERT INTO Money_Check(CheckDate, AccountNumber, RoutingNumber, InvoiceID)
+VALUES (2022-08-29, 1234828912, 12392140285, 12340);
+
+INSERT INTO Money_Check(CheckDate, AccountNumber, RoutingNumber, InvoiceID)
+VALUES (2022-11-19, 1348129481, 98672894379, 42051);
+
+INSERT INTO Money_Check(CheckDate, AccountNumber, RoutingNumber, InvoiceID)
+VALUES (2022-07-18, 2389129013, 13984209815, 14529);
+
+INSERT INTO Money_Check(CheckDate, AccountNumber, RoutingNumber, InvoiceID)
+VALUES (2023-05-25, 1823742913, 72365134234, 92895);
+
+INSERT INTO Money_Check(CheckDate, AccountNumber, RoutingNumber, InvoiceID)
+VALUES (2022-8-8, 9817341234, 78612423434, 24913);
+
+INSERT INTO Money_Check(CheckDate, AccountNumber, RoutingNumber, InvoiceID)
+VALUES (2022-12-24, 1289471233, 23561923874, 32413);
+
+INSERT INTO Money_Check(CheckDate, AccountNumber, RoutingNumber, InvoiceID)
+VALUES (2021-10-1, 7687123044, 89172412345, 42513);
+
+INSERT INTO Money_Check(CheckDate, AccountNumber, RoutingNumber, InvoiceID)
+VALUES (2022-09-09, 1247612413, 82739582344, 32516);
+
+INSERT INTO Money_Check(CheckDate, AccountNumber, RoutingNumber, InvoiceID)
+VALUES (2022-04-03, 6572386491, 17898321423, 76845);
+
+INSERT INTO Money_Check(CheckDate, AccountNumber, RoutingNumber, InvoiceID)
+VALUES (2022-06-15, 8913519827, 12875012333, 86967);
+
+INSERT INTO Card(CardName, IssuingCompany, CardNumber, CVVNumber, ExpirationDate, InvoiceID)
+VALUES ("Kausalya", "Fifth Third", 76124123, 623, 2023-08-13, 42051);
+
+INSERT INTO Card(CardName, IssuingCompany, CardNumber, CVVNumber, ExpirationDate, InvoiceID)
+VALUES ("Aaren", "Discover", 13942918, 723, 2028-12-12, 12340);
+
+INSERT INTO Card(CardName, IssuingCompany, CardNumber, CVVNumber, ExpirationDate, InvoiceID)
+VALUES ("Johannes", "Capital One", 76131242, 231, 2029-01-01, 14529);
+
+INSERT INTO Card(CardName, IssuingCompany, CardNumber, CVVNumber, ExpirationDate, InvoiceID)
+VALUES ("Flo", "Chase", 13482520, 889, 2027-11-23, 92895);
+
+INSERT INTO Card(CardName, IssuingCompany, CardNumber, CVVNumber, ExpirationDate, InvoiceID)
+VALUES ("River", "Discover", 12639424, 442, 2025-06-07, 24913);
+
+INSERT INTO Card(CardName, IssuingCompany, CardNumber, CVVNumber, ExpirationDate, InvoiceID)
+VALUES ("Froud", "Fifth Third", 41763213, 320, 2023-08-13, 32413);
+
+INSERT INTO Card(CardName, IssuingCompany, CardNumber, CVVNumber, ExpirationDate, InvoiceID)
+VALUES ("Shen", "Discover", 97427122, 329, 2028-12-12, 42513);
+
+INSERT INTO Card(CardName, IssuingCompany, CardNumber, CVVNumber, ExpirationDate, InvoiceID)
+VALUES ("Driver", "Capital One", 98437131, 482, 2029-01-01, 32516);
+
+INSERT INTO Card(CardName, IssuingCompany, CardNumber, CVVNumber, ExpirationDate, InvoiceID)
+VALUES ("Solute", "Chase", 64287321, 334, 2027-01-17, 76845);
+
+INSERT INTO Card(CardName, IssuingCompany, CardNumber, CVVNumber, ExpirationDate, InvoiceID)
+VALUES ("Wine", "Discover", 31764231, 381, 2025-03-04, 86967);
+
+INSERT INTO Covers(PolicyID, AcceptedInsurance, AmountCovered)
+VALUES (781461200, 1, 1200);
+
+INSERT INTO Covers(PolicyID, AcceptedInsurance, AmountCovered)
+VALUES (998504452, 1, 900);
+
+INSERT INTO Covers(PolicyID, AcceptedInsurance, AmountCovered)
+VALUES (367420363, 1, 900);
+
+INSERT INTO Covers(PolicyID, AcceptedInsurance, AmountCovered)
+VALUES (473278876, 1, 650);
+
+INSERT INTO Covers(PolicyID, AcceptedInsurance, AmountCovered)
+VALUES (307417131, 1, 700);
+
+INSERT INTO Covers(PolicyID, AcceptedInsurance, AmountCovered)
+VALUES (168968593, 1, 1200);
+
+INSERT INTO Covers(PolicyID, AcceptedInsurance, AmountCovered)
+VALUES (686511633, 1, 600);
+
+INSERT INTO Covers(PolicyID, AcceptedInsurance, AmountCovered)
+VALUES (217686794, 1, 1100);
+
+INSERT INTO Covers(PolicyID, AcceptedInsurance, AmountCovered)
+VALUES (624211424, 1, 1100);
+
+INSERT INTO Covers(PolicyID, AcceptedInsurance, AmountCovered)
+VALUES (28037390, 1, 650);
+
+INSERT INTO TreatmentProcedure(TreatmentType, AppointmentID, EquipmentID, ProcedureAmount)
+VALUES ("XrayCheckup", 241392, 1234, 120);
+
+INSERT INTO TreatmentProcedure(TreatmentType, AppointmentID, EquipmentID, ProcedureAmount)
+VALUES ("Checkup", 153242, 4151, 50);
+
+INSERT INTO TreatmentProcedure(TreatmentType, AppointmentID, EquipmentID, ProcedureAmount)
+VALUES ("Root Canal", 529142, 5627, 1200);
+
+INSERT INTO TreatmentProcedure(TreatmentType, AppointmentID, EquipmentID, ProcedureAmount)
+VALUES ("Cavity", 123144, 8457, 250);
+
+INSERT INTO TreatmentProcedure(TreatmentType, AppointmentID, EquipmentID, ProcedureAmount)
+VALUES ("XrayCheckup", 143588, 8356, 120);
+
+INSERT INTO TreatmentProcedure(TreatmentType, AppointmentID, EquipmentID, ProcedureAmount)
+VALUES ("Checkup", 147212, 7743, 50);
+
+INSERT INTO TreatmentProcedure(TreatmentType, AppointmentID, EquipmentID, ProcedureAmount)
+VALUES ("XrayCheckup", 876261, 6347, 120);
+
+INSERT INTO TreatmentProcedure(TreatmentType, AppointmentID, EquipmentID, ProcedureAmount)
+VALUES ("Cavity", 256323, 3629, 250);
+
+INSERT INTO TreatmentProcedure(TreatmentType, AppointmentID, EquipmentID, ProcedureAmount)
+VALUES ("RootCanal", 627953, 8423, 1200);
+
+INSERT INTO TreatmentProcedure(TreatmentType, AppointmentID, EquipmentID, ProcedureAmount)
+VALUES ("Cavity", 535262, 2347, 50);
+
+INSERT INTO MedicalEquipment(EquipmentID, SupplierName, XRayMachine, Scaler, Forcept, ToolFile, DentalProbe, PowerTool, DentalMirror)
+VALUES (1234, "Azdent", 1, 1, 0, 0, 1, 0, 1);
+
+INSERT INTO MedicalEquipment(EquipmentID, SupplierName, XRayMachine, Scaler, Forcept, ToolFile, DentalProbe, PowerTool, DentalMirror)
+VALUES (4151, "Net32", 0, 1, 0, 0, 1, 0, 1);
+
+INSERT INTO MedicalEquipment(EquipmentID, SupplierName, XRayMachine, Scaler, Forcept, ToolFile, DentalProbe, PowerTool, DentalMirror)
+VALUES (5627, "Dental Lights", 0, 1, 1, 1, 1, 1, 1);
+
+INSERT INTO MedicalEquipment(EquipmentID, SupplierName, XRayMachine, Scaler, Forcept, ToolFile, DentalProbe, PowerTool, DentalMirror)
+VALUES (8457, "Endodontics", 0, 1, 1, 1, 1, 1, 1);
+
+INSERT INTO MedicalEquipment(EquipmentID, SupplierName, XRayMachine, Scaler, Forcept, ToolFile, DentalProbe, PowerTool, DentalMirror)
+VALUES (8356, "Benco", 1, 1, 0, 0, 1, 0, 1);
+
+INSERT INTO MedicalEquipment(EquipmentID, SupplierName, XRayMachine, Scaler, Forcept, ToolFile, DentalProbe, PowerTool, DentalMirror)
+VALUES (7743, "Ultrasonic Cleaners", 0, 1, 0, 0, 1, 0, 1);
+
+INSERT INTO MedicalEquipment(EquipmentID, SupplierName, XRayMachine, Scaler, Forcept, ToolFile, DentalProbe, PowerTool, DentalMirror)
+VALUES (6347, "Burs", 1, 1, 0, 0, 1, 0, 1);
+
+INSERT INTO MedicalEquipment(EquipmentID, SupplierName, XRayMachine, Scaler, Forcept, ToolFile, DentalProbe, PowerTool, DentalMirror)
+VALUES (3629, "Acrylics", 0, 1, 1, 1, 1, 1, 1);
+
+INSERT INTO MedicalEquipment(EquipmentID, SupplierName, XRayMachine, Scaler, Forcept, ToolFile, DentalProbe, PowerTool, DentalMirror)
+VALUES (8423, "Dynarex Corporation", 0, 1, 1, 1, 1, 1, 1);
+
+INSERT INTO MedicalEquipment(EquipmentID, SupplierName, XRayMachine, Scaler, Forcept, ToolFile, DentalProbe, PowerTool, DentalMirror)
+VALUES (2347, "Braintree Scientific, Inc.", 0, 1, 1, 1, 1, 1, 1);
+
+INSERT INTO Suppliers(SupplierName, SupplierAddress, SupplierPhoneNumber)
+VALUES ("Azdent", "77 8th Way", 1122499928);
+
+INSERT INTO Suppliers(SupplierName, SupplierAddress, SupplierPhoneNumber)
+VALUES ("Net32", "643 12th Ave", 92100928131);
+
+INSERT INTO Suppliers(SupplierName, SupplierAddress, SupplierPhoneNumber)
+VALUES ("Dental Lights", "11 8th Way", 1173499928);
+
+INSERT INTO Suppliers(SupplierName, SupplierAddress, SupplierPhoneNumber)
+VALUES ("Endodontics", "149 8th Way", 1822499928);
+
+INSERT INTO Suppliers(SupplierName, SupplierAddress, SupplierPhoneNumber)
+VALUES ("Benco", "8429 1st St", 7186549428);
+
+INSERT INTO Suppliers(SupplierName, SupplierAddress, SupplierPhoneNumber)
+VALUES ("Ultrasonic Cleaners", "1239 8th Way", 1122264928);
+
+INSERT INTO Suppliers(SupplierName, SupplierAddress, SupplierPhoneNumber)
+VALUES ("Burs", "8429 1st St", 7182846428);
+
+INSERT INTO Suppliers(SupplierName, SupplierAddress, SupplierPhoneNumber)
+VALUES ("Acrylics", "1269 8th Way", 1122119928);
+
+INSERT INTO Suppliers(SupplierName, SupplierAddress, SupplierPhoneNumber)
+VALUES ("Dynarex Corporation", "1248 15th Ave", 97520928131);
+
+INSERT INTO Suppliers(SupplierName, SupplierAddress, SupplierPhoneNumber)
+VALUES ("Braintree Scientific, Inc.", "1248 16th Ave", 9219876531);
+
+INSERT INTO Schedule(AppointmentID, PatientID, Waitlist)
+VALUES (241392, 949442630, 0);
+
+INSERT INTO Schedule(AppointmentID, PatientID, Waitlist)
+VALUES (153242, 356593432, 0);
+
+INSERT INTO Schedule(AppointmentID, PatientID, Waitlist)
+VALUES (529142, 918817420, 0);
+
+INSERT INTO Schedule(AppointmentID, PatientID, Waitlist)
+VALUES (123144, 339606243, 0);
+
+INSERT INTO Schedule(AppointmentID, PatientID, Waitlist)
+VALUES (143588, 381445165, 0);
+
+INSERT INTO Schedule(AppointmentID, PatientID, Waitlist)
+VALUES (147212, 487235285, 1);
+
+INSERT INTO Schedule(AppointmentID, PatientID, Waitlist)
+VALUES (876261, 572284532, 0);
+
+INSERT INTO Schedule(AppointmentID, PatientID, Waitlist)
+VALUES (256323, 559104853, 0);
+
+INSERT INTO Schedule(AppointmentID, PatientID, Waitlist)
+VALUES (627953, 404829432, 0);
+
+INSERT INTO Schedule(AppointmentID, PatientID, Waitlist)
+VALUES (535262, 285371192, 0);
+
+INSERT INTO CompletedProcedures(Qualifications, DateOfCompletion, ProcedureCompletionAmount, EmployeeID, ProcedureCompleted)
+VALUES ("MD", 2022-09-13, 2, 412083714, "Cavity");
+
+INSERT INTO CompletedProcedures(Qualifications, DateOfCompletion, ProcedureCompletionAmount, EmployeeID, ProcedureCompleted)
+VALUES ("RN", 2022-09-12, 1, 154210831, "XrayCheckup");
+
+INSERT INTO CompletedProcedures(Qualifications, DateOfCompletion, ProcedureCompletionAmount, EmployeeID, ProcedureCompleted)
+VALUES ("RN", 2022-09-11, 1, 218054609, "Checkup");
+
+INSERT INTO CompletedProcedures(Qualifications, DateOfCompletion, ProcedureCompletionAmount, EmployeeID, ProcedureCompleted)
+VALUES ("DDS", 2022-08-25, 3, 413027944, "RootCanal");
+
+INSERT INTO CompletedProcedures(Qualifications, DateOfCompletion, ProcedureCompletionAmount, EmployeeID, ProcedureCompleted)
+VALUES ("DDS", 2022-11-15, 1, 140782199, "Checkup");
+
+INSERT INTO CompletedProcedures(Qualifications, DateOfCompletion, ProcedureCompletionAmount, EmployeeID, ProcedureCompleted)
+VALUES ("MD", 2022-12-23, 1, 137823041, "Checkup");
+
+INSERT INTO CompletedProcedures(Qualifications, DateOfCompletion, ProcedureCompletionAmount, EmployeeID, ProcedureCompleted)
+VALUES ("RN", 2021-02-01, 1, 984723520, "XrayCheckup");
+
+INSERT INTO CompletedProcedures(Qualifications, DateOfCompletion, ProcedureCompletionAmount, EmployeeID, ProcedureCompleted)
+VALUES ("RN", 2022-09-09, 1, 823420852, "Cavity" );
+
+INSERT INTO CompletedProcedures(Qualifications, DateOfCompletion, ProcedureCompletionAmount, EmployeeID, ProcedureCompleted)
+VALUES ("DDS", 2022-01-17, 1, 928518002, "RootCanal");
+
+INSERT INTO CompletedProcedures(Qualifications, DateOfCompletion, ProcedureCompletionAmount, EmployeeID, ProcedureCompleted)
+VALUES ("DDS", 2023-05-23, 4, 564284110, "Cavity");
+
+
+INSERT INTO Medical(EmployeeID, LicenseID, MedicalType)
+VALUES (412083714, 124123, "Dentist Assistant");
+
+INSERT INTO Medical(EmployeeID, LicenseID, MedicalType)
+VALUES (154210831, 526213, "Hygienist");
+
+INSERT INTO Medical(EmployeeID, LicenseID, MedicalType)
+VALUES (218054609, 626347, "Anesthetics");
+
+INSERT INTO Medical(EmployeeID, LicenseID, MedicalType)
+VALUES (413027944, 823985, "Dentist");
+
+INSERT INTO Medical(EmployeeID, LicenseID, MedicalType)
+VALUES (140782199, 623616, "Dentist Assistant");
+
+INSERT INTO Medical(EmployeeID, LicenseID, MedicalType)
+VALUES (137823041, 523723, "Dentist Assistant");
+
+INSERT INTO Medical(EmployeeID, LicenseID, MedicalType)
+VALUES (984723520, 689235, "Hygienist");
+
+INSERT INTO Medical(EmployeeID, LicenseID, MedicalType)
+VALUES (823420852, 923755, "Anesthetics");
+
+INSERT INTO Medical(EmployeeID, LicenseID, MedicalType)
+VALUES (928518002, 234261, "Dentist");
+
+INSERT INTO Medical(EmployeeID, LicenseID, MedicalType)
+VALUES (564284110, 872351, "Dentist Assistant");
+
+INSERT INTO NonMedical(EmployeeID, Occupation)
+VALUES (412083714, "Software Engineer");
+
+INSERT INTO NonMedical(EmployeeID, Occupation)
+VALUES (154210831, "Customer Support");
+
+INSERT INTO NonMedical(EmployeeID, Occupation)
+VALUES (218054609, "Front Line Desk");
+
+INSERT INTO NonMedical(EmployeeID, Occupation)
+VALUES (413027944, "Software Engineer");
+
+INSERT INTO NonMedical(EmployeeID, Occupation)
+VALUES (140782199, "Customer Support");
+
+INSERT INTO NonMedical(EmployeeID, Occupation)
+VALUES (137823041, "Front Line Desk");
+
+INSERT INTO NonMedical(EmployeeID, Occupation)
+VALUES (984723520, "Software Engineer");
+
+INSERT INTO NonMedical(EmployeeID, Occupation)
+VALUES (823420852, "Customer Support");
+
+INSERT INTO NonMedical(EmployeeID, Occupation)
+VALUES (928518002, "Front Line Desk");
+
+INSERT INTO NonMedical(EmployeeID, Occupation)
+VALUES (564284110, "Front Line Desk");
+
+
+
+INSERT INTO MedicalLicense(LicenseID, LicenseType, ExpirationDate)
+VALUES (124123, "MD", 2025-12-25);
+
+INSERT INTO MedicalLicense(LicenseID, LicenseType, ExpirationDate)
+VALUES (526213, "RN", 2024-01-19);
+
+INSERT INTO MedicalLicense(LicenseID, LicenseType, ExpirationDate)
+VALUES (626347, "RN", 2022-04-12);
+
+INSERT INTO MedicalLicense(LicenseID, LicenseType, ExpirationDate)
+VALUES (823985, "DDS", 2026-07-24);
+
+INSERT INTO MedicalLicense(LicenseID, LicenseType, ExpirationDate)
+VALUES (623616, "DDS", 2024-05-11);
+
+INSERT INTO MedicalLicense(LicenseID, LicenseType, ExpirationDate)
+VALUES (523723, "MD", 2022-01-01);
+
+INSERT INTO MedicalLicense(LicenseID, LicenseType, ExpirationDate)
+VALUES (689235, "RN", 2025-02-21);
+
+INSERT INTO MedicalLicense(LicenseID, LicenseType, ExpirationDate)
+VALUES (923755, "RN", 2025-04-21);
+
+INSERT INTO MedicalLicense(LicenseID, LicenseType, ExpirationDate)
+VALUES (234261, "DDS", 2025-05-05);
+
+INSERT INTO MedicalLicense(LicenseID, LicenseType, ExpirationDate)
+VALUES (872351, "DDS", 2024-01-24);

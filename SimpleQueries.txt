@@ -1,0 +1,74 @@
+a) Create a list of patients and the medications they currently take. Sort your list by patient’s
+last name and medication name in alphabetical order. Include other applicable details such
+as date prescribed and dosage.
+
+SELECT P.LastName, M.MedicationName, M.Dose,M.PresribeDate
+FROM MedicalHistory as H, Medications as M, Patients as P
+WHERE P.ID = H.PatientID
+GROUP BY PatientID
+ORDER BY LastName
+
+
+b) Display patient information for patients with Delta Dental insurance policy.
+
+SELECT * 
+FROM Patients AS P, Insurance AS I
+WHERE 
+I.InsuranceCompany = 'Delta' AND P.PolicyID = I.PolicyID
+
+
+
+
+c) Generate a list of procedures and dates of service performed by doctor Smilow.
+
+
+SELECT A.Lname, TP.TreatmentType, A.AppointmentDate
+FROM TreatmentProcedure as TP, Appointments as A
+WHERE A.Lname = 'Smillow' AND TP.AppointmentID = A.AppointmentID
+
+
+
+d) Print out a list of past-due invoices with patient contact information. Past due is defined
+As over 30 days old with a balance over $10.
+
+SELECT PT.ID, P.FirstName, P.LastName, DI.DateOfBirth
+FROM Patient as PT, People as P, Invoice as I, Appointment as A, DemographicInfo as DI 
+WHERE PT.ID = A.PatientID and A.AppointmentDate = I.InvoiceDate AND I.DaysPastDue > 30 AND I.InvoicedAmount > 10;
+
+
+
+e) Find the patients who brought the most revenue in the past year. You can define how many
+records you want to display in the result of this query.
+
+SELECT SUM(PP.PatientPaymentAmount) as Total, P.ID
+FROM PatientPayments AS PP,Patient AS P, Appointment AS A, Invoice AS I
+WHERE P.ID = A.PatientID AND PP.InvoiceID = I.InvoiceID
+ORDER BY Total DESC
+
+
+
+f) Create a list of doctors who performed less than 5 procedures this year.
+
+SELECT A.ProcedureDoctor, COUNT(A.ProcedureDoctor) AS Number
+   FROM Appointments AS A
+   HAVING COUNT(*) < 4 ;
+
+
+
+g) Find the highest paying procedures, procedure price, and the total number of those procedures performed. Sort your list with the highest paying procedures showing at the top of your list.
+
+SELECT TP.TreatmentType, TP.ProcedureAmount, COUNT(TP.TreatmentType) as Total
+FROM TreatmentProcedure as TP
+Group By TP.ProcedureAMount
+
+
+
+h) Create a list of all payment types accepted, the number of times each was used, and the total amount charged to that type of payment.
+
+SELECT PaymentType, COUNT(PaymentType), SUM(PatientPaymentAmount) FROM PatientPayments
+
+
+i) Find the name of the most popular insurance plan currently used by the patients.
+
+SELECT COUNT(I.InsuranceCompany) As Total
+FROM Insurance
